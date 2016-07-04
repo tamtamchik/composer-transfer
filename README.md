@@ -1,5 +1,9 @@
 # composer-transfer
 
+[![Packagist](https://img.shields.io/packagist/v/tamtamchik/composer-transfer.svg?maxAge=2592000?style=flat-square)](tamtamchik/composer-transfer)
+[![Packagist](https://img.shields.io/packagist/dt/tamtamchik/composer-transfer.svg?maxAge=2592000?style=flat-square)](tamtamchik/composer-transfer)
+[![Packagist](https://img.shields.io/packagist/l/tamtamchik/composer-transfer.svg?maxAge=2592000?style=flat-square)](tamtamchik/composer-transfer)
+
 Easy and fast file sharing from the command-line brought to Composer community.
 Based on [https://transfer.sh](https://transfer.sh)
 
