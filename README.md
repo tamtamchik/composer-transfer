@@ -20,6 +20,8 @@ your OS) in your PATH so the `transfer` executable can be located by your system
 
 ## Usage
 
+Now uploading your file to the web is as easy as running `transfer` command:
+
 ```
 $ transfer file.txt
 ######################################################################## 100.0%
