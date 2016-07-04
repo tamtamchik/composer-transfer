@@ -1,0 +1,21 @@
+{
+    "name": "tamtamchik/composer-transfer",
+    "description": "Easy and fast file sharing from the command-line brought to Composer community.",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Remco Verhoef",
+            "email": "remco@dutchcoders.io",
+            "role": "Original transfer.sh author"
+        },
+        {
+            "name": "Yuri Tkachenko",
+            "email": "yuri.tam.tkachenko@gmail.com",
+            "role": "Composer package author"
+        }
+    ],
+    "bin": [
+        "transfer"
+    ]
+}
