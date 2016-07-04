@@ -30,13 +30,13 @@ https://transfer.sh/7ctjG/file.txt
 
 ## Creators
 
-### Original package
+##### Original service:
 
 - [Remco Verhoef](https://github.com/nl5887)
 - Uvis Grinfelds
 - [All Contributors](https://github.com/dutchcoders/transfer.sh/graphs/contributors)
 
-### Composer package:
+##### Composer package:
 
 - [Yuri Tkachenko](https://github.com/tamtamchik)
 - [All Contributors](../../contributors)
