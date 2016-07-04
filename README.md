@@ -26,17 +26,14 @@ https://transfer.sh/7ctjG/file.txt
 
 ### Original package
 
-**Remco Verhoef**
-- <https://twitter.com/remco_verhoef>
-- <https://twitter.com/dutchcoders>
-
-**Uvis Grinfelds**
+- [Remco Verhoef](https://github.com/nl5887)
+- Uvis Grinfelds
+- [All Contributors](https://github.com/dutchcoders/transfer.sh/graphs/contributors)
 
 ### Composer package:
 
-## Credits
-
 - [Yuri Tkachenko](https://github.com/tamtamchik)
+- [All Contributors](../../contributors)
 
 ## Copyright and license
 
