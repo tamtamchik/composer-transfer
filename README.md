@@ -1,8 +1,8 @@
 # composer-transfer
 
-[![Packagist](https://img.shields.io/packagist/v/tamtamchik/composer-transfer.svg?style=flat-square)](tamtamchik/composer-transfer)
-[![Packagist](https://img.shields.io/packagist/dt/tamtamchik/composer-transfer.svg?style=flat-square)](tamtamchik/composer-transfer)
-[![Packagist](https://img.shields.io/packagist/l/tamtamchik/composer-transfer.svg?style=flat-square)](tamtamchik/composer-transfer)
+[![Latest Version on Packagist][ico-version]][link-packagist]
+[![Total Downloads][ico-downloads]][link-downloads]
+[![Software License][ico-license]](LICENSE)
 
 Easy and fast file sharing from the command-line brought to Composer community.
 Based on [https://transfer.sh](https://transfer.sh)
@@ -50,3 +50,10 @@ https://transfer.sh/7ctjG/file.txt
 Original [https://transfer.sh](https://transfer.sh) code and documentation copyright 2011-2016 Remco Verhoef.
 
 Code released under [the MIT license](LICENSE).
+
+  [ico-version]: https://img.shields.io/packagist/v/tamtamchik/composer-transfer.svg?style=flat-square
+  [ico-license]: https://img.shields.io/packagist/l/tamtamchik/composer-transfer.svg?style=flat-square
+  [ico-downloads]: https://img.shields.io/packagist/dt/tamtamchik/composer-transfer.svg?style=flat-square
+  
+  [link-packagist]: https://packagist.org/packages/tamtamchik/composer-transfer
+  [link-downloads]: https://packagist.org/packages/tamtamchik/composer-transfer
