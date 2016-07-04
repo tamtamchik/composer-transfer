@@ -41,6 +41,6 @@ https://transfer.sh/7ctjG/file.txt
 
 ## Copyright and license
 
-Code and documentation copyright 2011-2016 Remco Verhoef.
+Original [https://transfer.sh](https://transfer.sh) code and documentation copyright 2011-2016 Remco Verhoef.
 
 Code released under [the MIT license](LICENSE).
