@@ -41,6 +41,10 @@ https://transfer.sh/7ctjG/file.txt
 - [Yuri Tkachenko](https://github.com/tamtamchik)
 - [All Contributors](../../contributors)
 
+## TODO
+
+- Create PHP Class for uploading files to [https://transfer.sh](https://transfer.sh).
+
 ## Copyright and license
 
 Original [https://transfer.sh](https://transfer.sh) code and documentation copyright 2011-2016 Remco Verhoef.
