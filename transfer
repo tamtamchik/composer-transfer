@@ -1,5 +1,11 @@
 #!/usr/bin/env bash
 
+# Defines transfer alias and provides easy command line file and folder sharing.
+#
+# Authors:
+#   Remco Verhoef <remco@dutchcoders.io>
+#   Yuri Tkachenko <yuri.tam.tkachenko@gmail.com>
+
 scriptname=$0
 
 function usage {
