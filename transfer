@@ -10,11 +10,11 @@ scriptname=$0
 
 function usage {
     echo "Usage: $scriptname target"
-    echo "    transfer   - filename or directory to upload."
+    echo "  target      - filename or directory to upload."
     echo ""
     echo "Pipe usage: cat filename | $scriptname name"
-    echo "    filename - file to upload."
-    echo "    name     - desired name of the file on transfer.sh."
+    echo "  filename    - file to upload."
+    echo "  name        - desired name of the file on transfer.sh."
     exit 1
 }
 
