@@ -4,7 +4,7 @@ programname=$0
 
 function usage {
     echo "Usage: $programname target"
-    echo "    target - filename or directory to upload"
+    echo "    target - filename or directory to upload."
     exit 1
 }
 
@@ -62,4 +62,4 @@ if [ $? -ne 0 ]; then
     exit 1
 fi
 
-transfer;
+transfer "$@";
