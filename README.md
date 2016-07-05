@@ -2,6 +2,7 @@
 
 [![Latest Version on Packagist][ico-version]][link-packagist]
 [![Total Downloads][ico-downloads]][link-downloads]
+[![Build Status][ico-build]][link-build]
 [![Software License][ico-license]](LICENSE)
 
 Easy and fast file sharing from the command-line brought to Composer community.
@@ -54,6 +55,8 @@ Code released under [the MIT license](LICENSE).
   [ico-version]: https://img.shields.io/packagist/v/tamtamchik/composer-transfer.svg?style=flat-square
   [ico-license]: https://img.shields.io/packagist/l/tamtamchik/composer-transfer.svg?style=flat-square
   [ico-downloads]: https://img.shields.io/packagist/dt/tamtamchik/composer-transfer.svg?style=flat-square
-  
+  [ico-build]: https://img.shields.io/travis/tamtamchik/composer-transfer.svg?style=flat-square
+
   [link-packagist]: https://packagist.org/packages/tamtamchik/composer-transfer
-  [link-downloads]: https://packagist.org/packages/tamtamchik/composer-transfer
+  [link-downloads]: https://packagist.org/packages/tamtamchik/composer-transfer/stats
+  [link-build]: https://travis-ci.org/tamtamchik/composer-transfer
