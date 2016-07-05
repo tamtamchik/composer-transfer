@@ -1,10 +1,14 @@
 #!/usr/bin/env bash
 
-programname=$0
+scriptname=$0
 
 function usage {
-    echo "Usage: $programname target"
-    echo "    target - filename or directory to upload."
+    echo "Usage: $scriptname target"
+    echo "    transfer   - filename or directory to upload."
+    echo ""
+    echo "Pipe usage: cat filename | $scriptname name"
+    echo "    filename - file to upload."
+    echo "    name     - desired name of the file on transfer.sh."
     exit 1
 }
 
@@ -13,6 +17,7 @@ transfer() {
     if [ $# -eq 0 ];
     then
         echo "No arguments specified."
+        echo ""
         usage;
         return 1
     fi

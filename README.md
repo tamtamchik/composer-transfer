@@ -26,8 +26,17 @@ Now uploading your file to the web is as easy as running `transfer` command:
 ```
 $ transfer file.txt
 ######################################################################## 100.0%
-https://transfer.sh/7ctjG/file.txt
+https://transfer.sh/XXXXX/file.txt
 ```
+
+Or:
+
+```
+$ cat file.txt | transfer newfilename.txt
+######################################################################## 100.0%
+https://transfer.sh/XXXXX/newfilename.txt
+```
+
 
 ## Creators
 
