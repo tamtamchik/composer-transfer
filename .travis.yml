@@ -1,0 +1,8 @@
+language: bash
+install:
+  - git clone git://github.com/bmizerany/roundup.git /tmp/roundup
+  - cd roundup
+  - ./configure --development && make
+  - cd -
+script:
+  - /tmp/roundup/roundup tests.sh
