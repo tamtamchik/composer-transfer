@@ -32,8 +32,8 @@ it_should_work_with_pipe() {
   rm downloaded.txt;
 }
 
-# Pipeline single file wrokflow.
-it_should_work_with_pipe() {
+# Testing folders support.
+it_should_work_with_folders() {
   mkdir test;
   echo 'ziptest' > test/test.txt;
   usage=$(./transfer test | head -n 1);
