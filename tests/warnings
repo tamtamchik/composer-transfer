@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+
+describe "Composer Transfer Warnings Tests"
+
+# Display warning and usage when no file is specified.
+it_displays_warning() {
+  usage=$(./transfer | head -n 1);
+  test "$usage" = "No arguments specified.";
+}
+
+# Display warning when file does not exists.
+it_check_for_file_not_found() {
+  usage=$(./transfer dummy | head -n 1);
+  test "$usage" = "File dummy doesn't exists.";
+}

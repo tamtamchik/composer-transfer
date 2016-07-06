@@ -5,4 +5,4 @@ install:
   - ./configure --development && make
   - cd -
 script:
-  - /tmp/roundup/roundup tests.sh
+  - /tmp/roundup/roundup tests/*
