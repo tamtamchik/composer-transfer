@@ -8,6 +8,15 @@
 Easy and fast file sharing from the command-line brought to Composer community.
 Based on [https://transfer.sh](https://transfer.sh)
 
+Features:
+- Made for use with shell
+- Share files with an URL
+- Upload up to 10 GB
+- Files stored for 14 days
+- Encrypt your files
+- Preview your files in the browser
+- For free
+
 ## Installation
 
 Install package globally:
