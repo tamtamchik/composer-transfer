@@ -46,6 +46,14 @@ $ cat file.txt | transfer newfilename.txt
 https://transfer.sh/XXXXX/newfilename.txt
 ```
 
+Or for folders (require `zip` on server):
+
+```
+$ transfer /tmp/some-folder
+######################################################################## 100.0%
+https://transfer.sh/XXXXX/some-folder.zip
+```
+
 
 ## Creators
 

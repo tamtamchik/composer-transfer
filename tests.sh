@@ -24,7 +24,7 @@ it_check_sigle_file_upload() {
 }
 
 # Pipeline single file wrokflow.
-it_should_work_with_pipe() {
+it_check_work_with_pipe() {
   usage=$(echo 'pipeline' > testfile.txt && cat testfile.txt | ./transfer newname.txt | head -n 1);
   rm testfile.txt;
   curl -0 $usage > downloaded.txt;
@@ -33,7 +33,7 @@ it_should_work_with_pipe() {
 }
 
 # Testing folders support.
-it_should_work_with_folders() {
+it_check_work_with_folders() {
   mkdir test;
   echo 'ziptest' > test/test.txt;
   usage=$(./transfer test | head -n 1);
