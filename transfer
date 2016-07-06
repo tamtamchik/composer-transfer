@@ -46,9 +46,15 @@ transfer() {
 
         if [ -d $file ];
         then
+            zip --version 2>&1 > /dev/null
+            if [ $? -ne 0 ]; then
+                echo "Could not find zip."
+                return 1
+            fi
+
             # zip directory and transfer
             zipfile=$( mktemp -t transferXXX.zip )
-            cd $(dirname $file) && zip -r -q - $(basename $file) >> $zipfile
+            cd $(dirname $file) && zip -r -q - $(basename $file) > $zipfile
             curl --progress-bar --upload-file "$zipfile" "https://transfer.sh/$basefile.zip" >> $tmpfile
             rm -f $zipfile
         else
