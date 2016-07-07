@@ -25,8 +25,13 @@ Install package globally:
 $ composer global require tamtamchik/composer-transfer
 ```
 
-> **Note!** Make sure to place the `~/.composer/vendor/bin` directory (or the equivalent directory for
-your OS) in your PATH so the `transfer` executable can be located by your system.
+**Note!** Make sure to place the `~/.composer/vendor/bin` directory (or the equivalent directory for
+your OS) in your PATH so the `transfer` executable can be located by your system. Simply add this directory to your PATH in your  `~/.bashrc` (or `~/.bash_profile`) like this:
+
+```
+$ echo "export PATH=~/.composer/vendor/bin:$PATH" >> ~/.bashrc
+$ source ~/.bashrc
+```
 
 ## Usage
 
