@@ -43,12 +43,12 @@ $ transfer file.txt
 https://transfer.sh/XXXXX/file.txt
 ```
 
-Or:
+Or (real life example):
 
 ```
-$ cat file.txt | transfer newfilename.txt
+$ tail -f /var/log/nginx/nginx.access.log | cut -d ' ' -f 1 | logtop | transfer access-statistics.txt
 ######################################################################## 100.0%
-https://transfer.sh/XXXXX/newfilename.txt
+https://transfer.sh/XXXXX/access-statistics.txt
 ```
 
 Or for folders (require `zip` on server):
