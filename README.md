@@ -46,7 +46,7 @@ https://transfer.sh/XXXXX/file.txt
 Or using it with a pipe (real life example):
 
 ```
-$ tail -f /var/log/nginx/nginx.access.log | cut -d ' ' -f 1 | logtop | transfer access-statistics.txt
+$ cat /var/log/nginx/access.log | cut -d ' ' -f 1 | logtop | transfer access-statistics.txt
 ######################################################################## 100.0%
 https://transfer.sh/XXXXX/access-statistics.txt
 ```
