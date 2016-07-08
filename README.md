@@ -43,7 +43,7 @@ $ transfer file.txt
 https://transfer.sh/XXXXX/file.txt
 ```
 
-Or (real life example):
+Or using it with a pipe (real life example):
 
 ```
 $ tail -f /var/log/nginx/nginx.access.log | cut -d ' ' -f 1 | logtop | transfer access-statistics.txt
